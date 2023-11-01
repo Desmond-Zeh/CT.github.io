@@ -1,10 +1,10 @@
 /* Welcome message code */
-let mybutton = document.querySelector('button');
-let headingreplace = document.querySelector('h2');
+let mybutton = document.querySelector("button");
+let headingreplace = document.querySelector("h2");
 
 /* Start function*/
 function startCode(){
- let myName = prompt('please enter your username! Note, username can be any string other than digits (e.g 1,2,3,4)');
+ let myName = prompt("please enter your username! Note, username can be any string other than digits (e.g 1,2,3,4)");
 
  // Verify the availability of my prompt content
 if(!myName){
@@ -28,7 +28,7 @@ if(!myName){
 
 /// My password function
 function myPassWord(){
- let mypassword = prompt('Please enter main password! Note, the main password is the string (love)');
+ let mypassword = prompt('Please enter main password! Note, the main password is the string (desmond)');
  
  /// Verify the availability of the prompt content
  if(!mypassword){
@@ -40,7 +40,7 @@ function myPassWord(){
 
  ///Verify the content of mypassword prompt
  function mypassContVer(){
-  let passWord = ['love'];
+ const passWord = ['love'];
   if(!mypassword = passWord){
    myPassWord();
   }
