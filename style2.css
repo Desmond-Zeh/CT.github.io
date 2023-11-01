@@ -1,4 +1,11 @@
 /*My CSS code page*/
+button{
+  font-size: 20px;
+  text-align: center;
+  text-height:1px;
+  background-color: green;
+  color: yellow;
+}
 html{
 font-size:10px;
 font-family: "Gelasio", serif;
