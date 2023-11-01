@@ -84,14 +84,13 @@ function myPassWord(){
   }
   else{
    localStorage.getItem('Name', myName);
-   Saved();
-  }
+     }
  }
  }
 }
 }
 /// Verify the content of the localStorage
-function Saved(){ 
+
 If (!localStorage.getItem('Name')){
  startCode();
 }
@@ -99,7 +98,7 @@ else{
 let SavedName = localStorage.getItem('Name');
 headingreplace.textContent = 'Welcome,' + SavedName;
 }
-}
+
 /// my button function
 myButton.onclick = () =>{
  startCode();
