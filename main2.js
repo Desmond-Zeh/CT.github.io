@@ -53,6 +53,7 @@ if(!myName){
  }
 
  // Verify the content of my prompt
+ function myNameContVer(){
  let myNumber = Number(myName);
  if(!Number.isNaN(myNumber)){
   startCode();
@@ -65,7 +66,7 @@ if(!myName){
 
 /// My password function
 function myPassWord(){
- let mypassword = prompt('Please enter main password! Note, the main password is (love)');
+ let mypassword = prompt('Please enter main password! Note, the main password is the string (love)');
  
  /// Verify the availability of the prompt content
  if(!mypassword){
@@ -77,24 +78,27 @@ function myPassWord(){
 
  ///Verify the content of mypassword prompt
  function mypassContVer(){
-  let passWord = [love];
+  let passWord = ['love'];
   if(!mypassword = passWord){
    myPassWord();
   }
   else{
-   localStorage.getItem('Name');
-   Saved()
+   localStorage.getItem('Name', myName);
+   Saved();
   }
+ }
  }
 }
 }
 /// Verify the content of the localStorage
+function Saved(){ 
 If (!localStorage.getItem('Name')){
  startCode();
 }
 else{
 let SavedName = localStorage.getItem('Name');
 headingreplace.textContent = 'Welcome,' + SavedName;
+}
 }
 /// my button function
 myButton.onclick = () =>{
