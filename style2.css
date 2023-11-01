@@ -30,6 +30,13 @@ text-height:1px;
 letter-spacing:1px;
 color:black;
 }
+h2{
+  font-size:20px;
+  text-align: center;
+  color: brown;
+  text-height:1.5px;
+  letter-spacing: 1px;
+}
 button{
   font-size: 20px;
   text-align: center;
