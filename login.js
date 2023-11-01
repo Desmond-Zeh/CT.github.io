@@ -62,7 +62,7 @@ headingreplace.textContent = 'Welcome,' + SavedName;
 }
 
 /// my button function
-myButton.onclick = () =>{
+myButton.onclick = function(){
  startCode();
-};
+}
    
