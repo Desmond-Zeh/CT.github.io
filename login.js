@@ -1,5 +1,5 @@
 /* Welcome message code */
-let myButton = document.querySelector('button');
+let mybutton = document.querySelector('button');
 let headingreplace = document.querySelector('h2');
 
 /* Start function*/
@@ -62,7 +62,7 @@ headingreplace.textContent = 'Welcome,' + SavedName;
 }
 
 /// my button function
-myButton.onclick = function(){
+mybutton.onclick = function(){
  startCode();
 }
    
