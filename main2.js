@@ -42,7 +42,7 @@ let headingreplace = document.querySelector('h2');
 
 /* Start function*/
 function startCode(){
- let myName = prompt('please enter your username! Note, username can be any string other than digits (e.g 1,2,3,4)')
+ let myName = prompt('please enter your username! Note, username can be any string other than digits (e.g 1,2,3,4)');
 
  // Verify the availability of my prompt content
 if(!myName){
